@@ -1,0 +1,68 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <title>Orgão Colegiado</title>
+</head>
+
+<body>
+<table border=1 bgcolor="Blue" width="100%">
+<TH> <Font color="White">Cadastro de Conselho</Font></TH>
+</table>
+
+<Form Name="Form_Conselho" Method="Post">
+<h4>Programa</h4>
+<table width="100%">
+   <tr>
+   <td width="15%"><Font size="3" face="arial">Unidade</Font></td>
+   <td><input type="text" name="CodUnidade" size="5"></td>
+   <td><input type="text" name="Unidade" size="80"></td>
+   </tr>
+
+   <tr>
+   <td width="15%"><Font size="3" face="arial">Programa</Font></td>
+   <td><input type="text" name="CodPrograma" size="5"></td>
+   <td><input type="text" name="Programa" size="80"></td>
+   </tr>
+</table>
+
+<h4>Conselho de Programa de Pós-Graduação</h4>
+<table width="100%">
+   <tr>
+   <td width="15%"><Font size="3" face="arial">Código</Font></td>
+   <td><input type="text" name="Codigo" size="5"></td>
+   </tr>
+
+   <tr>
+   <td width="15%"><Font size="3" face="arial">Nome</Font></td>
+   <td><input type="text" name="Nome" size="100"></td>
+   </tr>
+
+   <tr>
+   <td width="15%"><Font size="3" face="arial">Tipo</Font></td>
+   <td>
+      <Select name="Tipo">
+      <Option>
+      <Option value="1">Comissões transitorias de estudos
+      <Option value="2">Conselho de departamentos
+      <Option value="3">Comissões permanentes de unidade
+Administrativa
+      </Select>
+      </td>
+   </tr>
+   <tr>
+   <td wigth="15%"><font size="3" face="arial">Fundamento</font></td>
+   <td>
+   <Textarea name="Fundamento" cols=50 rows=3></Textarea>
+   </td>
+   </tr>
+    <tr>
+    <td align="center" colspan="2">
+      <input type="Submit" value="Salvar" />
+    </td>
+    </tr>
+
+</table>
+</Form>
+
+</body>
+</html>
